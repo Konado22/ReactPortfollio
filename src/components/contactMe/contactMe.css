@@ -1,16 +1,28 @@
+* {
+    font-size: 18px;
+    font-family: monospace;
+    color: black;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+#moveContact {
+    padding-left: 10px;
+    margin-left: 10px;
+}
+.card-link h5 {
+    display: flex;
+    justify-content: left;
+    padding-right: 30%;
+    padding-left: 0%;
+    margin-left: 0%;
+    margin-right: 0%
+}
+
 .card-subtitle {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-}
-
-.bigger {
-    font-weight: bolder;
-    font-size: 40px;
-}
-
-#bio {
-    line-height: 1.5;
 }
 
 @media screen and (min-width:1080px) {
