@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Konado22/ReactPortfollio/static/css/main.3757f753.css",
+    "main.js": "/Konado22/ReactPortfollio/static/js/main.a4ec28d3.js",
+    "index.html": "/Konado22/ReactPortfollio/index.html",
+    "main.3757f753.css.map": "/Konado22/ReactPortfollio/static/css/main.3757f753.css.map",
+    "main.a4ec28d3.js.map": "/Konado22/ReactPortfollio/static/js/main.a4ec28d3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3757f753.css",
+    "static/js/main.a4ec28d3.js"
+  ]
+}

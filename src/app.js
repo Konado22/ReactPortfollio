@@ -1,20 +1,21 @@
-import aboutMe from "./components/aboutMe";
-import buttons from "./components/buttons";
-import contactMe from "./components/contactMe";
-import indvProject from "./components/contactMe";
-import navbar from "./components/navbar";
-import projectsList from "./components/projectsList";
+
+import AboutMe from "./components/aboutMe/aboutMe";
+// import Buttons from "./components/buttons";
+import ContactMe from "./components/contactMe/contactMe";
+import IndvProject from "./components/contactMe/contactMe";
+import Navbar from "./components/navbar/navbar";
+import ProjectsList from "./components/projectsList/projectsList";
 import "./app.css"
-const App = () => {
+const app = () => {
   return (
     <div>
-      <navbar/>
-      <aboutMe/>
-      <projectsList>
-        <indvProject/>
-      </projectsList>
-      <contactMe/>
+      <Navbar />
+      <AboutMe />
+      <ProjectsList>
+        <IndvProject />
+      </ProjectsList>
+      <ContactMe />
     </div>
   );
 };
-export default App
+export default app

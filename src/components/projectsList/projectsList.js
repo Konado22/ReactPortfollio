@@ -1,4 +1,4 @@
-import "./projectsList.css";
+//div containing the projects, projects flex boxed to properly fit within this div
 
 const projectList = () => {
   return (

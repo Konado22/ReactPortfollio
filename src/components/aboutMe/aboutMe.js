@@ -1,6 +1,5 @@
-import "./aboutMe.css"
 
-const aboutMe = ()=> {
+const aboutMe = () => {
     return (
         <div class="card bg-dark ptb-3" id="About-Me" style="width: 100%;">
         <div class="card-body">
@@ -26,4 +25,4 @@ const aboutMe = ()=> {
     </div>
     )
 }
-export default aboutMe
+export default aboutMe;

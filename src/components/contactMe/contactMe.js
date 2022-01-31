@@ -1,4 +1,4 @@
-import "./contactMe.css"
+
 
 const contactMe = () => {
     return ( <div class="card bg-dark" id="Contact-Me" style="width: 100%;">

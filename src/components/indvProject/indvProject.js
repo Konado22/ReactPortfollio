@@ -1,4 +1,4 @@
-import "./indvProject.css"
+
 
 const Project = ({title, github, deployed, description, librariesUsed})
 const indvProject = () => {
@@ -6,7 +6,7 @@ const indvProject = () => {
         <div class="card-body2">
         <div class="images">
             <div class="card bg-primary">
-                <img class="psuedo" src="" alt="" id=""></img>
+                <img class="psuedo" src=""></img>
                 <a class="btn btn-dark btn-outline-info" href=""
                     target="_blank">
                     <h3 class="text-light"></h3>
@@ -20,4 +20,4 @@ const indvProject = () => {
 </div>
     )
 }
-export default indvProject
+export default indvProject;

@@ -1,5 +1,5 @@
-import "./navbar.css"
 
+//check 
 //background image for banner?
 const navbar = () => {
     return (
