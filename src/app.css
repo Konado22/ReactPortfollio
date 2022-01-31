@@ -1,3 +1,4 @@
+/* add all css to this folder to make more organized */
 * {
     font-size: 18px;
     font-family: monospace;
@@ -6,17 +7,54 @@
     box-sizing: border-box;
     text-decoration: none;
 }
-#moveContact {
-    padding-left: 10px;
-    margin-left: 10px;
+
+#subheading {
+    font-size: 30px;
+    color: lightgray;
+    font-style: italic;
+
 }
-.card-link h5 {
+
+.bannerstuff {
+    background-color: blue;
+}
+
+.bannerstuff h1 {
+    color: lightgray;
     display: flex;
     justify-content: left;
-    padding-right: 30%;
-    padding-left: 0%;
-    margin-left: 0%;
-    margin-right: 0%
+    align-items: center;
+}
+
+#yep {
+    font-size: 20px;
+}
+
+.bigger {
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: right;
+    background-color: blue;
+    align-items: center;
+    list-style-type: none;
+}
+
+.bannerstuff ul li a:hover {
+    background-color: teal;
+    box-shadow: 5px 5px 5px 5px black;
+    border: solid 5px darkgray;
+    color: black;
+    cursor: grab;
+}
+
+.card-body2 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .card-subtitle {
@@ -76,4 +114,27 @@
         font-size: 8px;
     }
 
+}
+
+.card-link h5 {
+    display: flex;
+    justify-content: left;
+    padding-right: 30%;
+    padding-left: 0%;
+    margin-left: 0%;
+    margin-right: 0%
+}
+
+#bio {
+    line-height: 1.5;
+}
+
+#funkyFrog {
+    background-color: oldlace;
+}
+
+#moveContact,
+#moveWork {
+    padding-left: 10px;
+    margin-left: 10px;
 }
