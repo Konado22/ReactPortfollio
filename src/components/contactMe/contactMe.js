@@ -16,3 +16,4 @@ const contactMe = () => {
     </div>
 </div>)
 }
+export default contactMe

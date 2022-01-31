@@ -20,3 +20,4 @@ const indvProject = () => {
 </div>
     )
 }
+export default indvProject

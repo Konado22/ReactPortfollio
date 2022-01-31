@@ -12,3 +12,4 @@ const projectList = () => {
     </div>
   );
 };
+export default projectList

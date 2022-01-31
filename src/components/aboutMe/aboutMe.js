@@ -26,3 +26,4 @@ const aboutMe = ()=> {
     </div>
     )
 }
+export default aboutMe
