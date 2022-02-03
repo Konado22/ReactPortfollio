@@ -1,5 +1,6 @@
 //check
 //background image for banner?
+import image from "../../assets/profile-pic.jpg"
 const Navbar = () => {
   return (
     <nav className="bannerstuff bg-dark mb-0">
@@ -9,7 +10,7 @@ const Navbar = () => {
       </h3>
 
       <img
-        src="./assets/profile pic small.jpg"
+        src={image}
         id="profile-pic"
         alt="its me"
       ></img>
