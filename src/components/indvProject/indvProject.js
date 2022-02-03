@@ -1,6 +1,6 @@
-
-
-const Project = ({title, github, deployed, description, librariesUsed})
+import {projectData} from ""
+//need to add .map to iterate over array of project objects and create individual cards for each to fit in parent div ProjectsList
+const Project = ({title, github, deployed, description})
 const IndvProject = () => {
     return (
         <div className="card-body2">
