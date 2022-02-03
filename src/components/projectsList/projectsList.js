@@ -1,5 +1,7 @@
 //div containing the projects, projects flex boxed to properly fit within this div
 
+import IndvProject from "../IndvProject/IndvProject";
+
 const ProjectsList = () => {
   return (
     <div className="card bg-dark" id="Work" style={{ width: "100%" }}>
@@ -8,7 +10,9 @@ const ProjectsList = () => {
           Work
         </h5>
       </a>
-      <div className="card-body2"></div>
+      <div className="card-body2">
+        {IndvProject}
+      </div>
     </div>
   );
 };
