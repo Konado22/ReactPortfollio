@@ -1,21 +1,23 @@
-
-import AboutMe from "./components/aboutMe/aboutMe";
+import AboutMe from "./components/AboutMe/AboutMe";
 // import Buttons from "./components/buttons";
-import ContactMe from "./components/contactMe/contactMe";
-import IndvProject from "./components/contactMe/contactMe";
-import Navbar from "./components/navbar/navbar";
-import ProjectsList from "./components/projectsList/projectsList";
-import "./app.css"
-const app = () => {
+import ContactMe from "./components/ContactMe/ContactMe";
+// import IndvProject from "./components/ContactMe/ContactMe";
+import Navbar from "./components/Navbar/Navbar";
+import ProjectsList from "./components/ProjectsList/ProjectsList";
+
+import "./App.css";
+
+function App() {
   return (
-    <div>
-      <Navbar />
-      <AboutMe />
-      <ProjectsList>
-        <IndvProject />
-      </ProjectsList>
-      <ContactMe />
+    <div className="App">
+      <div>
+        <Navbar />
+        <AboutMe />
+        <ProjectsList />
+        <ContactMe />
+      </div>
     </div>
   );
-};
-export default app
+}
+
+export default App;

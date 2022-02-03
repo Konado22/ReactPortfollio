@@ -1,140 +1,140 @@
 /* add all css to this folder to make more organized */
 * {
-    font-size: 18px;
-    font-family: monospace;
-    color: black;
-    margin: 0px;
-    box-sizing: border-box;
-    text-decoration: none;
+  font-size: 18px;
+  font-family: monospace;
+  color: black;
+  margin: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
 }
 
 #subheading {
-    font-size: 30px;
-    color: lightgray;
-    font-style: italic;
+  font-size: 30px;
+  color: lightgray;
+  font-style: italic;
 
 }
 
 .bannerstuff {
-    background-color: blue;
+  background-color: blue;
 }
 
 .bannerstuff h1 {
-    color: lightgray;
-    display: flex;
-    justify-content: left;
-    align-items: center;
+  color: lightgray;
+  display: flex;
+  justify-content: left;
+  align-items: center;
 }
 
 #yep {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .bigger {
-    font-weight: bolder;
-    font-size: 40px;
+  font-weight: bolder;
+  font-size: 40px;
 }
 
 .navbar {
-    display: flex;
-    justify-content: right;
-    background-color: blue;
-    align-items: center;
-    list-style-type: none;
+  display: flex;
+  justify-content: right;
+  background-color: blue;
+  align-items: center;
+  list-style-type: none;
 }
 
 .bannerstuff ul li a:hover {
-    background-color: teal;
-    box-shadow: 5px 5px 5px 5px black;
-    border: solid 5px darkgray;
-    color: black;
-    cursor: grab;
+  background-color: teal;
+  box-shadow: 5px 5px 5px 5px black;
+  border: solid 5px darkgray;
+  color: black;
+  cursor: grab;
 }
 
 .card-body2 {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .card-subtitle {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 @media screen and (min-width:1080px) {
-    img {
-        max-width: 400px;
-        max-height: 400px;
-        min-width: 400px;
-        min-height: 400px;
-    }
+  img {
+      max-width: 400px;
+      max-height: 400px;
+      min-width: 400px;
+      min-height: 400px;
+  }
 
-    .images h3 {
-        font-size: 40px;
-    }
+  .images h3 {
+      font-size: 40px;
+  }
 
-    .images p {
-        font-size: 30px;
-    }
+  .images p {
+      font-size: 30px;
+  }
 }
 
 @media screen and (min-width:720px) {
-    img {
-        max-width: 250px;
-        max-height: 250px;
-        min-width: 250px;
-        min-height: 250px;
-    }
+  img {
+      max-width: 250px;
+      max-height: 250px;
+      min-width: 250px;
+      min-height: 250px;
+  }
 
-    .images h3 {
-        font-size: 20px;
-    }
+  .images h3 {
+      font-size: 20px;
+  }
 
-    .images p {
-        font-size: 15px;
-    }
+  .images p {
+      font-size: 15px;
+  }
 
 }
 
 @media screen and (max-width: 720px) {
-    img {
-        max-width: 125px;
-        max-height: 125px;
-        min-width: 125px;
-        min-height: 125px;
-    }
+  img {
+      max-width: 125px;
+      max-height: 125px;
+      min-width: 125px;
+      min-height: 125px;
+  }
 
-    .images h3 {
-        font-size: 10px;
-    }
+  .images h3 {
+      font-size: 10px;
+  }
 
-    .images p {
-        font-size: 8px;
-    }
+  .images p {
+      font-size: 8px;
+  }
 
 }
 
 .card-link h5 {
-    display: flex;
-    justify-content: left;
-    padding-right: 30%;
-    padding-left: 0%;
-    margin-left: 0%;
-    margin-right: 0%
+  display: flex;
+  justify-content: left;
+  padding-right: 30%;
+  padding-left: 0%;
+  margin-left: 0%;
+  margin-right: 0%
 }
 
 #bio {
-    line-height: 1.5;
+  line-height: 1.5;
 }
 
 #funkyFrog {
-    background-color: oldlace;
+  background-color: oldlace;
 }
 
 #moveContact,
 #moveWork {
-    padding-left: 10px;
-    margin-left: 10px;
+  padding-left: 10px;
+  margin-left: 10px;
 }

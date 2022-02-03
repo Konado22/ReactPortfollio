@@ -1,15 +1,15 @@
 //div containing the projects, projects flex boxed to properly fit within this div
 
-const projectList = () => {
+const ProjectsList = () => {
   return (
-    <div class="card bg-dark" id="Work" style="width: 100%;">
-      <a href="#Work" class="card-link">
-        <h5 class="title text-light bigger" id="moveWork">
+    <div className="card bg-dark" id="Work" style={{ width: "100%" }}>
+      <a href="#Work" className="card-link">
+        <h5 className="title text-light bigger" id="moveWork">
           Work
         </h5>
       </a>
-      <div class="card-body2"></div>
+      <div className="card-body2"></div>
     </div>
   );
 };
-export default projectList
+export default ProjectsList;

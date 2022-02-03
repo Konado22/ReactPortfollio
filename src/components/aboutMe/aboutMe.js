@@ -1,13 +1,12 @@
 
-const aboutMe = () => {
+const AboutMe = () => {
     return (
-        <div class="card bg-dark ptb-3" id="About-Me" style="width: 100%;">
-        <div class="card-body">
-            <a href="#About-Me" class="card-link bg-dark">
-                <h5 class="bigger title bg-dark text-light">About Me</h5>
+        <div className="card bg-dark ptb-3" id="About-Me" style={{width: "100%"}}>
+        <div className="card-body">
+            <a href="#About-Me" className="card-link bg-dark">
+                <h5 className="bigger title bg-dark text-light">About Me</h5>
             </a>
-            <br></br>
-            <h6 class="card-subtitle text-light " id="bio">Hello My Name is Jesse Draper. I am a 26 year old student
+            <h6 className="card-subtitle text-light " id="bio">Hello My Name is Jesse Draper. I am a 26 year old student
                 currently attending a Full Stack Web Development course through the University Of Denver. This has been
                 an important milestone in my life, as I have strongly desired a career change for some time and have
                 always been interested in coding/web development. During this
@@ -25,4 +24,4 @@ const aboutMe = () => {
     </div>
     )
 }
-export default aboutMe;
+export default AboutMe;

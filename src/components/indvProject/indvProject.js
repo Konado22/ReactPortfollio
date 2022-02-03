@@ -1,23 +1,23 @@
 
 
 const Project = ({title, github, deployed, description, librariesUsed})
-const indvProject = () => {
+const IndvProject = () => {
     return (
-        <div class="card-body2">
-        <div class="images">
-            <div class="card bg-primary">
-                <img class="psuedo" src=""></img>
-                <a class="btn btn-dark btn-outline-info" href=""
-                    target="_blank">
-                    <h3 class="text-light"></h3>
+        <div className="card-body2">
+        <div className="images">
+            <div className="card bg-primary">
+                <img className="psuedo" src=""></img>
+                <a className="btn btn-dark btn-outline-info" href=""
+                    target="_blank" rel="noreferrer">
+                    <h3 className="text-light"></h3>
                 </a>
-                <a class="btn btn-dark btn-outline-info text-light" href=""
-                    target="_blank">
+                <a className="btn btn-dark btn-outline-info text-light" href=""
+                    target="_blank" rel="noreferrer">
                    </a>
-                <p class="text-light"></p>
+                <p className="text-light"></p>
             </div>
         </div>
 </div>
     )
 }
-export default indvProject;
+export default IndvProject;
