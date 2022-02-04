@@ -10,9 +10,7 @@ const ProjectsList = () => {
           Work
         </h5>
       </a>
-      <div className="card-body2">
-        {IndvProject}
-      </div>
+        <IndvProject />
     </div>
   );
 };

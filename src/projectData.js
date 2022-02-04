@@ -1,26 +1,26 @@
 const projectData = [{
     title: "Eat the Frog",
-    image: "",
+    image: "../../projectData.js",
     github: "https://github.com/msp4msps/eat_the_frog",
     live: "https://msp4msps.github.io/eat_the_frog/",
     description: "Mobile Widget"
 },
 {
-    title: "Project 2",
+    title: "JATE",
     image: "",
     github: "",
     live: "",
     description: ""
 },
 {
-    title: "Project 3",
+    title: "Social Network API",
     image: "",
     github: "",
     live: "",
     description: ""
 },
 {
-    title: "Project 4",
+    title: "E-Commerce Back End",
     image: "",
     github: "",
     live: "",
