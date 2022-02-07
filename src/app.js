@@ -8,7 +8,9 @@ import ProjectsList from "./components/ProjectsList/ProjectsList";
 import "./App.css";
 
 function App() {
+  // normal js
   return (
+    // jsx return
     <div className="App">
       <div>
         <Navbar />
