@@ -1,6 +1,5 @@
 /* add all css to this folder to make more organized */
 * {
-  /* background-color: black; */
   font-size: 18px;
   font-family: monospace;
   color: black;
@@ -15,6 +14,13 @@
   font-style: italic;
 
 }
+.card-body2 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
 
 .bannerstuff {
   background-color: blue;
@@ -52,11 +58,6 @@
   cursor: grab;
 }
 
-.card-body2 {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-}
 
 .card-subtitle {
   display: flex;
