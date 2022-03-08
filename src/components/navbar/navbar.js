@@ -2,7 +2,7 @@ import { Navbar, Nav, Container} from "react-bootstrap";
 import image from "../../assets/profile-pic.jpg"
 const appNavbar = () => {
   return (
-    <Navbar variant="info" bg='dark' style={{"display":"flex", "alignItems": "flex-end"}} >
+    <Navbar variant="dark" bg='dark' style={{"display":"flex", "alignItems": "flex-end"}} >
       <Container style={{"display":"flex", "justifyContent": "left","marginLeft": "5px"}}>
         <Navbar.Brand href="/"><img src={image}></img></Navbar.Brand>
         <Navbar.Brand className= "bigger" style={{"color":"white", "fontFamily": "revert"}}> Jesse Draper<br></br>Web Developer</Navbar.Brand>

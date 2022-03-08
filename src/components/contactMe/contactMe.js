@@ -1,6 +1,6 @@
 const ContactMe = () => {
   return (
-    <div style={{ width: "100%" }}>
+    <div style={{ "width": "100%"}}>
       <h5 className="bigger" id="moveContact">
         Contact Info
       </h5>
