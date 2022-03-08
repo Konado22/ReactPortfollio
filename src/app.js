@@ -14,9 +14,9 @@ function App() {
       <Homepage />
       <Routes>
         <Route exact path="/ReactPortfollio/" component={Homepage} />
-        <Route path="ReactPortfollio/#aboutMe" component={AboutMePage} />
-        <Route path="ReactPortfollio/#work" component={ExamplesOfWork} />
-        <Route path="ReactPortfollio/#contactMe" component={ContactMePage} />
+        <Route path="/ReactPortfollio/#aboutMe" component={AboutMePage} />
+        <Route path="/ReactPortfollio/#work" component={ExamplesOfWork} />
+        <Route path="/ReactPortfollio/#contactMe" component={ContactMePage} />
       </Routes>
     </Router>
   );
