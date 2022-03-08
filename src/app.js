@@ -13,10 +13,10 @@ function App() {
       <AppNavbar />
       <Homepage />
       <Routes>
-        <Route exact path="/" component={Homepage} />
-        <Route path="#aboutMe" component={AboutMePage} />
-        <Route path="#work" component={ExamplesOfWork} />
-        <Route path="#contactMe" component={ContactMePage} />
+        <Route exact path="/ReactPortfollio/" component={Homepage} />
+        <Route path="ReactPortfollio/#aboutMe" component={AboutMePage} />
+        <Route path="ReactPortfollio/#work" component={ExamplesOfWork} />
+        <Route path="ReactPortfollio/#contactMe" component={ContactMePage} />
       </Routes>
     </Router>
   );
