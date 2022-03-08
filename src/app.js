@@ -1,24 +1,24 @@
-import AboutMe from "./components/AboutMe/AboutMe";
-// import Buttons from "./components/buttons";
-import ContactMe from "./components/ContactMe/ContactMe";
-// import IndvProject from "./components/ContactMe/ContactMe";
-import Navbar from "./components/Navbar/Navbar";
-import ProjectsList from "./components/ProjectsList/ProjectsList";
-
 import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import ContactMePage from "./pages/contactMePage";
+import ExamplesOfWork from "./pages/examplesOfWork";
+import AboutMePage from "./pages/aboutMepage";
+import Homepage from "./pages/homepage";
+import { Navbar } from "react-bootstrap";
+import AppNavbar from "./components/Navbar/Navbar";
 
 function App() {
-  // normal js
   return (
-    // jsx return
-    <div className="App">
-      <div>
-        <Navbar />
-        <AboutMe />
-        <ProjectsList />
-        <ContactMe />
-      </div>
-    </div>
+    <Router>
+      <AppNavbar />
+      <Homepage />
+      <Routes>
+        <Route exact path="/" component={Homepage} />
+        <Route path="#aboutMe" component={AboutMePage} />
+        <Route path="#work" component={ExamplesOfWork} />
+        <Route path="#contactMe" component={ContactMePage} />
+      </Routes>
+    </Router>
   );
 }
 

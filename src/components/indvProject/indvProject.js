@@ -1,25 +1,30 @@
-import {projectData} from "../../projectData"
+import { projectData } from "../../projectData";
+import { Card, Button } from "react-bootstrap";
 //need to add .map to iterate over array of project objects and create individual cards for each to fit in parent div ProjectsList
 const IndvProject = () => {
-    return (projectData.map((item) => (
-        <div key={item.id}>
-        <div className="images">
-            <div className="card bg-primary">
-                <img className="psuedo" src="{item.image}" alt=""></img>
-                <a className="btn btn-dark btn-outline-info" href={item.live}
-                    target="_blank" rel="noreferrer">
-                    <h3 className="text-light">{item.title}</h3>
-                </a>
-                <a className="btn btn-dark btn-outline-info text-light" href={item.github}
-                    target="_blank" rel="noreferrer">Github Repo link
-                   </a>
-                <p className="text-light">{item.description}</p>
-        </div>
-</div>
-
-      </div>
-
-    ))
-    )
-  }
-  export default IndvProject;
+  return projectData.map((item) => (
+    <Card key={item.id}>
+      <Card className="images">
+        <Card className=" bg-light">
+          <Card.Img src={item.image} alt="" />
+          <a href={item.live} target="_blank" rel="noreferrer">
+            <Button variant="outline-dark" style={{ width: "100%" }}>
+              {item.title}
+            </Button>
+          </a>
+          <a href={item.github} target="_blank" rel="noreferrer">
+            <Button variant="outline-dark" style={{ width: "100%" }}>
+              Github Repo link
+            </Button>
+          </a>
+          <Card.Subtitle
+            style={{ display: "flex", alignItems: "center", paddingTop: "5px" }}
+          >
+            {item.description}
+          </Card.Subtitle>
+        </Card>
+      </Card>
+    </Card>
+  ));
+};
+export default IndvProject;

@@ -4,12 +4,10 @@ import IndvProject from "../IndvProject/IndvProject";
 
 const ProjectsList = () => {
   return (
-    <div className="card bg-dark" id="Work" style={{ width: "100%" }}>
-      <a href="#Work" className="card-link">
-        <h5 className="title text-light bigger" id="moveWork">
+    <div style={{ width: "100%" }}>
+        <h5 className="title bigger" id="moveWork">
           Work
         </h5>
-      </a>
       <div className="card-body2">
         <IndvProject />
       </div>

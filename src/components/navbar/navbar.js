@@ -1,38 +1,19 @@
-//check
-//background image for banner?
+import { Navbar, Nav, Container} from "react-bootstrap";
 import image from "../../assets/profile-pic.jpg"
-const Navbar = () => {
+const appNavbar = () => {
   return (
-    <nav className="bannerstuff bg-dark mb-0">
-      <h1 className="bigger  mtb-3 text-light">Jesse Draper</h1>
-      <h3 className="bigger  mtb-3 text-light" id="subheading">
-        Web Developer
-      </h3>
-
-      <img
-        src={image}
-        id="profile-pic"
-        alt="its me"
-      ></img>
-
-      <ul className="navbar mb-0">
-        <li className="yep">
-          <a className="nav-link text-light" href="#About-Me">
-            About Me
-          </a>
-        </li>
-        <li className="yep">
-          <a className="nav-link text-light" href="#Work">
-            Work
-          </a>
-        </li>
-        <li className="yep">
-          <a className="nav-link text-light" href="#Contact-Me">
-            Contact Me
-          </a>
-        </li>
-      </ul>
-    </nav>
+    <Navbar variant="info" bg='dark' style={{"display":"flex", "alignItems": "flex-end"}} >
+      <Container style={{"display":"flex", "justifyContent": "left","marginLeft": "5px"}}>
+        <Navbar.Brand href="/"><img src={image}></img></Navbar.Brand>
+        <Navbar.Brand className= "bigger" style={{"color":"white", "fontFamily": "revert"}}> Jesse Draper<br></br>Web Developer</Navbar.Brand>
+      </Container>
+      <Nav fixed="bottom" bg='dark' style={{"display":"flex", "justifyContent": "right", "alignItems": "end"}}>
+        <Nav.Link href="/aboutMe">About Me</Nav.Link>
+        <Nav.Link href="/work">Work</Nav.Link>
+        <Nav.Link href="/contactMe">Contact Me</Nav.Link>
+      </Nav>
+    </Navbar>
   );
 };
-export default Navbar;
+export default appNavbar;
+

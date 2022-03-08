@@ -1,18 +1,18 @@
 export const projectData = [{
     id: 1,
     title: "Eat the Frog",
-    image: "../src/assets/frog.jpg",
+    image: "/assets/frog.jpg",
     github: "https://github.com/msp4msps/eat_the_frog",
     live: "https://msp4msps.github.io/eat_the_frog/",
     description: "Mobile Widget"
 },
 {
     id: 2,
-    title: "JATE",
-    image: "./assets/",
-    github: "https://github.com/Konado22/newTextEditor",
-    live: "https://pure-island-75813.herokuapp.com/",
-    description: "Text editor with javascript formatting"
+    title: "Pad Protection",
+    image: "",
+    github: "https://github.com/Jackson-Barker/Pad-Protection",
+    live: "https://padprotection.herokuapp.com/",
+    description: "Home Insurance"
 },
 {
     id:3,
@@ -20,14 +20,32 @@ export const projectData = [{
     image: "",
     github: "https://github.com/Konado22/Social-Network-API",
     live: "https://watch.screencastify.com/v/K16J8d75pUHbQZNPm7ZL",
-    description: "API using react and MongoDB"
+    description: "API using React and MongoDB"
 },
 {
     id: 4,
     title: "E-Commerce Back End",
-    image: "src/assets/Screenshot 2022-01-03 091057.png",
+    image: "",
     github: "https://github.com/Konado22/E-commerce-back-end",
     live: "https://watch.screencastify.com/v/w4tPTGfEU9gueUXTjdja",
-    description: "front and back end application"
+    description: "Fullstack application"
+},
+{
+    id: 5,
+    title: "JATE",
+    image: "",
+    github: "https://github.com/Konado22/newTextEditor",
+    live: "https://pure-island-75813.herokuapp.com/",
+    description: "PWA text editor"
+
+},
+{
+    id: 6,
+    title: "Note Taker",
+    image: "",
+    github: "https://github.com/Konado22/Note-taker",
+    live: "https://immense-eyrie-46617.herokuapp.com/",
+    description: "Note taking application"
+
 }
 ]
