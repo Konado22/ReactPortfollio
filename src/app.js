@@ -16,10 +16,10 @@ function App() {
           <Route exact path="/ReactPortfollio/" element={<Homepage />}>
             {/* <Homepage /> */}
           </Route>
-          <Route path="/ReactPortfollio/aboutMe" element={<AboutMePage />} />
-          <Route path="/ReactPortfollio/work" element={<ExamplesOfWork />} />
+          <Route path="/aboutMe" element={<AboutMePage />} />
+          <Route path="/work" element={<ExamplesOfWork />} />
           <Route
-            path="/ReactPortfollio/contactMe"
+            path="/contactMe"
             element={<ContactMePage />}
           />
         </Routes>
