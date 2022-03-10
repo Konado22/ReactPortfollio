@@ -4,24 +4,24 @@ import ContactMePage from "./pages/contactMePage";
 import ExamplesOfWork from "./pages/examplesOfWork";
 import AboutMePage from "./pages/aboutMepage";
 import Homepage from "./pages/homepage";
-import { Navbar } from "react-bootstrap";
 import AppNavbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
     <>
       <AppNavbar />
-      <Router>
+      {/* < Homepage /> */}
+      {/* <Router>
         <Routes>
-          <Route exact path="/ReactPortfollio/" element={<Homepage />} />
-          <Route path="/ReactPortfollio/aboutMe" element={<AboutMePage />} />
-          <Route path="/ReactPortfollio/work" element={<ExamplesOfWork />} />
+          <Route exact path="/ReactPortfollio" element={<Homepage />} />
+          <Route path="/aboutMe" element={<AboutMePage />} />
+          <Route path="/work" element={<ExamplesOfWork />} />
           <Route
-            path="/ReactPortfollio/contactMe"
+            path="/contactMe"
             element={<ContactMePage />}
           />
         </Routes>
-      </Router>
+      </Router> */}
     </>
   );
 }
