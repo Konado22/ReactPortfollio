@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <AppNavbar />
-      <Router>
+      {/* <Router>
         <Routes>
           <Route exact path="/ReactPortfollio/" element={<Homepage />} />
           <Route path="/ReactPortfollio/aboutMe" element={<AboutMePage />} />
@@ -21,7 +21,7 @@ function App() {
             element={<ContactMePage />}
           />
         </Routes>
-      </Router>
+      </Router> */}
     </>
   );
 }
