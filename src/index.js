@@ -15,9 +15,9 @@ ReactDOM.render(
     <Router>
       <Routes>
         <Route exact path="/ReactPortfollio" element={<Homepage />} />
-        <Route path="/aboutMe" element={<AboutMePage />} />
-        <Route path="/work"element={<ExamplesOfWork />} />
-        <Route path="/contactMe"element={<ContactMePage/>} />
+        <Route path="/ReactPortfollio/aboutMe" element={<AboutMePage />} />
+        <Route path="/ReactPortfollio/work"element={<ExamplesOfWork />} />
+        <Route path="/ReactPortfollio/contactMe"element={<ContactMePage/>} />
       </Routes>
     </Router>
   </React.StrictMode>,
