@@ -4,6 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import ContactMePage from "./pages/contactMePage";
+import ExamplesOfWork from "./pages/examplesOfWork";
+import AboutMePage from "./pages/aboutMepage";
+import Homepage from "./pages/homepage";
 
 ReactDOM.render(
   <React.StrictMode>
