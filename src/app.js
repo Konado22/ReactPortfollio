@@ -13,9 +13,7 @@ function App() {
       <AppNavbar />
       <Router>
         <Routes>
-          <Route exact path="/ReactPortfollio/" element={<Homepage />}>
-            {/* <Homepage /> */}
-          </Route>
+          <Route exact path="/ReactPortfollio/" element={<Homepage />} />
           <Route path="/ReactPortfollio/aboutMe" element={<AboutMePage />} />
           <Route path="/ReactPortfollio/work" element={<ExamplesOfWork />} />
           <Route
