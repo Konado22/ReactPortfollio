@@ -6,7 +6,7 @@ const AboutMe = () => {
         <Card.Title className="bigger">
           About Me
         </Card.Title>
-        <Card.Text >
+        <Card.Text>
           Hello My Name is Jesse Draper. I am a 26 year old student recently
           having completed a Full Stack Web Development course through the
           University Of Denver. This has been an important milestone in my life,

@@ -1,5 +1,4 @@
 import AboutMe from "../components/AboutMe/AboutMe";
-import AppNavbar from "../components/Navbar/Navbar";
 
 function AboutMePage() {
   return (
