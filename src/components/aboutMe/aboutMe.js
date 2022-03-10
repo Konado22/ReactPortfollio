@@ -2,7 +2,7 @@ import { Card } from "react-bootstrap";
 const AboutMe = () => {
   return (
     <div>
-      <Card  bg="light" style={{ "textDecoration": "none", "paddingLeft": "10px", "paddingRight": "10px" }}>
+      <Card  bg="light" style={{ "text-decoration": "none", "paddingLeft": "10px", "paddingRight": "10px" }}>
         <Card.Title className="bigger">
           About Me
         </Card.Title>
