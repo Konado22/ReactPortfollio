@@ -9,16 +9,22 @@ import AppNavbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
-    <Router>
+    <>
       <AppNavbar />
-      <Homepage />
-      <Routes>
-        <Route exact path="/ReactPortfollio/" component={Homepage} />
-        <Route path="/ReactPortfollio/#aboutMe" component={AboutMePage} />
-        <Route path="/ReactPortfollio/#work" component={ExamplesOfWork} />
-        <Route path="/ReactPortfollio/#contactMe" component={ContactMePage} />
-      </Routes>
-    </Router>
+      <Router>
+        <Routes>
+          <Route exact path="/ReactPortfollio/" element={<Homepage />}>
+            {/* <Homepage /> */}
+          </Route>
+          <Route path="/ReactPortfollio/aboutMe" element={<AboutMePage />} />
+          <Route path="/ReactPortfollio/work" element={<ExamplesOfWork />} />
+          <Route
+            path="/ReactPortfollio/contactMe"
+            element={<ContactMePage />}
+          />
+        </Routes>
+      </Router>
+    </>
   );
 }
 
