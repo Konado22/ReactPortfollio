@@ -2,7 +2,7 @@ export const projectData = [{
     id: 1,
     title: "Eat the Frog",
     image: "../../assets/frog.jpg",
-    github: "https://github.com/msp4msps/eat_the_frog",
+    github: "https://github.com/Konado22/eat_the_frog",
     live: "https://msp4msps.github.io/eat_the_frog/",
     description: "Mobile Widget"
 },
@@ -10,7 +10,7 @@ export const projectData = [{
     id: 2,
     title: "Pad Protection",
     image: "",
-    github: "https://github.com/Jackson-Barker/Pad-Protection",
+    github: "https://github.com/Konado22/Pad-Protection",
     live: "https://padprotection.herokuapp.com/",
     description: "Home Insurance"
 },
