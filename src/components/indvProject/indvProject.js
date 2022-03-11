@@ -2,6 +2,7 @@ import { projectData } from "../../projectData";
 import { Card, Button } from "react-bootstrap";
 //need to add .map to iterate over array of project objects and create individual cards for each to fit in parent div ProjectsList
 const IndvProject = () => {
+
   return projectData.map((item) => (
     <Card bg= 'primary' key={item.id}>
       <Card className="images">

@@ -1,6 +1,4 @@
-import AboutMe from "../components/AboutMe/AboutMe";
-import ContactMe from "../components/ContactMe/ContactMe";
-import ProjectsList from "../components/ProjectsList/ProjectsList";
+import {Badge} from 'react-bootstrap'
 
 function Homepage() {
   return (
@@ -9,21 +7,25 @@ function Homepage() {
         <h1>Hi and welcome to my Portfollio!</h1>
         <h2>
           Technology has always been facinating and a big part of my life. From
-          building computers, to videogames, and a passion for coding I spend
+          building computers, to videogames, and a passion for coding I have spent
           some quality time around my computer. To learn more about me and my
-          work please click above to navigate the page.{" "}
+          work please click above to navigate the page.
         </h2>
       </div>
       <div>
-        <h1>
-          This is where badges and maybe other pictures go (js, react, html,
-          css, mongoDB, express, node, graphQL)(bootstrap, bulma)(herkou, gihub,
-          apollo)
-        </h1>
+        <Badge bg='warning'>React.js</Badge>
+        <Badge bg='warning'>Javascript</Badge>
+        <Badge bg='warning'> Express.js</Badge>
+        <Badge bg='warning'>Node.js</Badge>
+        <Badge bg='primary'> HTML</Badge>
+        <Badge bg='primary'>CSS</Badge>
+        <Badge bg='success'>MySQL</Badge>
+        <Badge bg='success'>MongoDB</Badge>
+        <Badge bg='success'>GraphQL</Badge>
+        <Badge bg='success'>MySQL</Badge>
+        <Badge bg='info'>Heroku</Badge>
+        <Badge bg='info'>Github</Badge>
       </div>
-      {/* <AboutMe />
-      <ProjectsList />
-      < ContactMe /> */}
     </>
   );
 }
