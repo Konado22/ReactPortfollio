@@ -8,6 +8,7 @@ import ContactMePage from "./pages/contactMePage";
 import ExamplesOfWork from "./pages/examplesOfWork";
 import AboutMePage from "./pages/aboutMepage";
 import Homepage from "./pages/homepage";
+import Footer from "./components/Footer/Footer"
 
 ReactDOM.render(
   <React.StrictMode>
@@ -20,6 +21,7 @@ ReactDOM.render(
         <Route path="/ReactPortfollio/contactMe"element={<ContactMePage/>} />
       </Routes>
     </Router>
+    < Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );

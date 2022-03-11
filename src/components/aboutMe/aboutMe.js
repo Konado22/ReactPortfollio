@@ -6,8 +6,10 @@ const AboutMe = () => {
         bg="light"
         style={{
           "text-decoration": "none",
-          paddingLeft: "10px",
-          paddingRight: "10px",
+          "paddingLeft": "15px",
+          "paddingRight": "15px",
+          // "marginLeft": "15px",
+          // "marginRight": "15px"
         }}
       >
         <Card.Title className="bigger">About Me</Card.Title>
