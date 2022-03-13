@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter, Router, Routes, Route } from "react-router-dom";
 import ContactMePage from "./pages/contactMePage";
 import ExamplesOfWork from "./pages/examplesOfWork";
 import AboutMePage from "./pages/aboutMepage";
@@ -13,14 +13,14 @@ import Footer from "./components/Footer/Footer"
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    <Router>
+    <HashRouter basename='/ReactPortfollio'>
       <Routes>
         <Route exact path="/ReactPortfollio" element={<Homepage />} />
         <Route path="/ReactPortfollio/aboutMe" element={<AboutMePage />} />
         <Route path="/ReactPortfollio/work"element={<ExamplesOfWork />} />
         <Route path="/ReactPortfollio/contactMe"element={<ContactMePage/>} />
       </Routes>
-    </Router>
+    </HashRouter>
     < Footer />
   </React.StrictMode>,
   document.getElementById('root')

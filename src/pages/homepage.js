@@ -9,7 +9,7 @@ function Homepage() {
           Technology has always been facinating and a big part of my life. From
           building computers, to videogames, and a passion for coding I have spent
           some quality time around my computer. To learn more about me and my
-          work please click above to navigate the page.
+          work please see below
         </h4>
       </div>
       <div style={{"display":"flex","justifyContent":"center" }}>
