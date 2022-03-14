@@ -4,8 +4,8 @@ function Homepage() {
   return (
     <>
       <div>
-        <h3 style={{"fontFamily": "unset"}}>Hi and welcome to my Portfollio!</h3>
-        <h4>
+        <h3 style={{"fontFamily": "unset", "fontWeight": "bold"}}>Hi and welcome to my Portfollio!</h3>
+        <h4 style={{"lineHeight": "50px"}}>
           Technology has always been facinating and a big part of my life. From
           building computers, to videogames, and a passion for coding I have spent
           some quality time around my computer. To learn more about me and my

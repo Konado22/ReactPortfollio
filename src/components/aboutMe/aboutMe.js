@@ -13,7 +13,7 @@ const AboutMe = () => {
         }}
       >
         <Card.Title className="bigger">About Me</Card.Title>
-        <Card.Text>
+        <Card.Text style={{"fontSize": "25px","fontFamily": "unset","lineHeight": "50px"}}>
           Hello My Name is Jesse Draper. I enjoy music, playing outside in the
           mountains, and spending time with my 5 year old son. I am a 26 year
           old student recently having completed a Full Stack Web Development
@@ -29,7 +29,7 @@ const AboutMe = () => {
           experiences I have gained and have provided some examples of the work
           I have completed in class or on my freetime. The list is continuosly
           updated with projects I feel more accuratley reflect my skills and
-          interests.Feel free to navigate to the work page to see the deployed
+          interests.Feel free to navigate the page to see the deployed
           acitivities/respective github links. Please contact me for more
           information or how I can help your team today!
         </Card.Text>
