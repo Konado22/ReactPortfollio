@@ -7,7 +7,7 @@ function AboutMePage() {
   return (
     <>
       <AboutMe />
-      <div style={{"display": "flex", "justifyContent":"space-evenly","paddingTop": "20px", "backgroundColor":"lightgray"}}>
+      <div style={{"display": "flex", "justifyContent":"space-evenly","paddingTop": "20px", "backgroundColor":"aquamarine"}}>
       <img src={githubStats} alt=""/>
       <img src={langStats} alt="" />
       <img src={summaryStats} alt="" />

@@ -8,13 +8,13 @@ function Footer() {
     "https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white";
 
   return (
-    <>
+    <div style={{"backgroundColor":"aquamarine"}}>
       <div style={{ "display": "flex", "justifyContent": "space-evenly", "paddingTop": "15px"}}>
         <a href="https://github.com/Konado22"><img src={githubBadge} href="https://github.com/Konado22" alt="" /></a>
         < a href="https://www.linkedin.com/in/jesse-draper-2b5466217/" alt=""><img src={linkedInBadge}/></a>
         <a href="mailto:jessedraper2@gmail.com"><img src={emailBadge} alt="" /></a>
       </div>
-    </>
+    </div>
   );
 }
 export default Footer;

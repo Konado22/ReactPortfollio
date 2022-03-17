@@ -3,11 +3,11 @@ const AboutMe = () => {
   return (
     <div>
       <Card
-        bg="light"
         style={{
           "text-decoration": "none",
-          paddingLeft: "15px",
-          paddingRight: "15px",
+          "paddingLeft": "15px",
+          "paddingRight": "15px",
+          "backgroundColor":"aquamarine"
           // "marginLeft": "15px",
           // "marginRight": "15px"
         }}

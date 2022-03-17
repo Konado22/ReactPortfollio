@@ -24,11 +24,11 @@ export const projectData = [{
 },
 {
     id: 4,
-    title: "E-Commerce Back End",
+    title: "Day-Planner",
     image: "",
-    github: "https://github.com/Konado22/E-commerce-back-end",
-    live: "https://watch.screencastify.com/v/w4tPTGfEU9gueUXTjdja",
-    description: "Fullstack application"
+    github: "https://github.com/Konado22/Day-Planner",
+    live: "https://konado22.github.io/Day-Planner/",
+    description: "Day planning application"
 },
 {
     id: 5,

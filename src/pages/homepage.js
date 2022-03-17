@@ -2,7 +2,7 @@ import {Badge,Card} from 'react-bootstrap'
 
 function Homepage() {
   return (
-    <>
+    < div style={{"backgroundColor":"aquamarine"}}>
       <div>
         <h3 style={{"fontFamily": "unset", "fontWeight": "bold"}}>Hi and welcome to my Portfollio!</h3>
         <h4 style={{"lineHeight": "50px"}}>
@@ -29,7 +29,7 @@ function Homepage() {
       </Card>
 
       </div>
-    </>
+    </div>
   );
 }
 export default Homepage;
