@@ -2,9 +2,9 @@ import { Card} from 'react-bootstrap'
 function ContactMePage () {
     return(
         <div style={{"backgroundColor":"aquamarine"}}>
-        <h2 style={{"fontFamily": "sans-serif", "paddingLeft": "15px", "paddingRight": "15px"}}> Thank your for viewing my page! Use links below to contact me or see more examples of my work.</h2>
-        <div style={{"paddingLeft": "15px", "paddingRight": "15px"}}>
-        <Card variant="dark" bg='dark'>
+        <h5 style={{"fontFamily": "sans-serif", "paddingLeft": "15px", "paddingRight": "15px", "lineHeight" : "60px"}}> Thank your for viewing my page! Use links below to contact me or see more examples of my work.</h5>
+        <div style={{"paddingLeft": "15px", "paddingRight": "15px", "paddingTop" :"10px"}}>
+        <Card variant="dark" bg='dark' style={{"marginBottom" : "10px"}}>
             <Card.Title style={{"fontWeight":"bolder", "color": "whitesmoke"}} >
                 Resume
             </Card.Title>

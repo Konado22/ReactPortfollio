@@ -20,7 +20,7 @@ export const projectData = [{
     image: "",
     github: "https://github.com/Konado22/Social-Network-API",
     live: "https://watch.screencastify.com/v/K16J8d75pUHbQZNPm7ZL",
-    description: "API using React and MongoDB"
+    description: "React/MongoDB API"
 },
 {
     id: 4,
@@ -28,7 +28,7 @@ export const projectData = [{
     image: "",
     github: "https://github.com/Konado22/Day-Planner",
     live: "https://konado22.github.io/Day-Planner/",
-    description: "Day planning application"
+    description: "Day planning app"
 },
 {
     id: 5,
@@ -45,7 +45,7 @@ export const projectData = [{
     image: "",
     github: "https://github.com/Konado22/Note-taker",
     live: "https://immense-eyrie-46617.herokuapp.com/",
-    description: "Note taking application"
+    description: "Note taking app"
 
 }
 ]

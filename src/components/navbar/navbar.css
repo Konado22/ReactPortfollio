@@ -1,0 +1,17 @@
+@media only screen and (min-width: 0px){
+	* {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 720px){
+	* {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 721px){
+	* {
+        font-size: 40px;
+    }
+}
