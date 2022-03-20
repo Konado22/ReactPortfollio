@@ -13,7 +13,7 @@ const AboutMe = () => {
         }}
       >
         <Card.Title className="bigger">About Me</Card.Title>
-        <Card.Text style={{"fontSize": "35px","fontFamily": "unset","lineHeight": "60px"}}>
+        <Card.Text style={{"fontSize": "30px","fontFamily": "unset","lineHeight": "60px"}}>
           Hello My Name is Jesse Draper. I enjoy music, playing outside in the
           mountains, and spending time with my 5 year old son. I am a 26 year
           old student recently having completed a Full Stack Web Development

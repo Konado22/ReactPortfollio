@@ -6,7 +6,7 @@ function Homepage() {
       <div>
         <h4 style={{"fontFamily": "unset", "fontWeight": "bold"}}>Hi and welcome to my Portfollio!</h4>
         <br></br>
-        <p style={{"lineHeight": "50px", "lineHeight": "80px", "fontSize": "20px"}}>
+        <p style={{"lineHeight": "50px", "lineHeight": "80px", "fontSize": "30px"}}>
           Technology has always been facinating and a big part of my life. From
           building computers, to videogames, and a passion for coding I have spent
           some quality time around my computer. To learn more about me and my
