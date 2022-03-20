@@ -6,12 +6,12 @@ function Homepage() {
       <div>
         <h4 style={{"fontFamily": "unset", "fontWeight": "bold"}}>Hi and welcome to my Portfollio!</h4>
         <br></br>
-        <h5 style={{"lineHeight": "50px", "lineHeight": "80px"}}>
+        <p style={{"lineHeight": "50px", "lineHeight": "80px", "fontSize": "20px"}}>
           Technology has always been facinating and a big part of my life. From
           building computers, to videogames, and a passion for coding I have spent
           some quality time around my computer. To learn more about me and my
           work please see below
-        </h5>
+        </p>
       </div>
       <div style={{"display":"flex","justifyContent":"center" }}>
       <Card bg="dark" style={{"display": "flex","paddingTop":"10px", "paddingBottom": "15px", "width": "100%"}}>
