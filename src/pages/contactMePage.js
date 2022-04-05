@@ -8,7 +8,7 @@ function ContactMePage () {
             <Card.Title style={{"fontWeight":"bolder", "color": "whitesmoke"}} >
                 Resume
             </Card.Title>
-            <a href='https://drive.google.com/file/d/18j-XFmZBthKhpjzTjVsYXH9E3t0NwSvD/view?usp=sharing'><Card.Text style={{"color": "whitesmoke"}}>Click here to access a pdf file of my resume</Card.Text></a>
+            <a href='https://docs.google.com/document/d/1-ixofLayRip4MJ5TJ3spMldObWDe2iyD0ghsbNvhKiw/edit?usp=sharing'><Card.Text style={{"color": "whitesmoke"}}>Click here to access a pdf file of my resume</Card.Text></a>
         </Card>
         <Card  bg='dark' >
             <Card.Title style={{"fontWeight":"bolder" ,"color": "whitesmoke"}}>
