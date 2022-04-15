@@ -1,10 +1,10 @@
 export const projectData = [{
     id: 1,
     title: "Eat the Frog",
-    image: "../../assets/frog.jpg",
+    image: '/assets.frog.jpg',
     github: "https://github.com/Konado22/eat_the_frog",
     live: "https://msp4msps.github.io/eat_the_frog/",
-    description: "Mobile Widget"
+    description: "Mobile Widget. Javascript, HTML, CSS, API's"
 },
 {
     id: 2,
@@ -12,7 +12,7 @@ export const projectData = [{
     image: "",
     github: "https://github.com/Konado22/Pad-Protection",
     live: "https://padprotection.herokuapp.com/",
-    description: "Home Insurance"
+    description: "Help find the right home insurance for you. React, GraphQL, Apollo, Bootstrap"
 },
 {
     id:3,
@@ -20,7 +20,7 @@ export const projectData = [{
     image: "",
     github: "https://github.com/Konado22/Social-Network-API",
     live: "https://watch.screencastify.com/v/K16J8d75pUHbQZNPm7ZL",
-    description: "React/MongoDB API"
+    description: "Social network clone. React/MongoDB API"
 },
 {
     id: 4,
@@ -28,7 +28,7 @@ export const projectData = [{
     image: "",
     github: "https://github.com/Konado22/Day-Planner",
     live: "https://konado22.github.io/Day-Planner/",
-    description: "Day planning app"
+    description: "Day planning app. Javascript, HTML, CSS"
 },
 {
     id: 5,
@@ -36,7 +36,7 @@ export const projectData = [{
     image: "",
     github: "https://github.com/Konado22/newTextEditor",
     live: "https://pure-island-75813.herokuapp.com/",
-    description: "PWA text editor"
+    description: "PWA text editor. Webpack, Javascript"
 
 },
 {
@@ -45,7 +45,7 @@ export const projectData = [{
     image: "",
     github: "https://github.com/Konado22/Note-taker",
     live: "https://immense-eyrie-46617.herokuapp.com/",
-    description: "Note taking app"
+    description: "Note taking app. HTML, Javascript, Express"
 
 }
 ]

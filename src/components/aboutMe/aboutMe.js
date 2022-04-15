@@ -28,7 +28,7 @@ const AboutMe = () => {
           well as managing my time effectively. I have really enjoyed the
           experiences I have gained and have provided some examples of the work
           I have completed in class or on my freetime. The list is continuosly
-          updated with projects I feel more accuratley reflect my skills and
+          updated with projects I feel most accuratley reflect my skills and
           interests.Feel free to navigate the page to see the deployed
           acitivities/respective github links. Please contact me for more
           information or how I can help your team today!

@@ -20,14 +20,19 @@ function Homepage() {
         <Badge bg='warning'>React.js</Badge>
         <Badge bg='warning'>Javascript</Badge>
         <Badge bg='warning'> Express.js</Badge>
+        <Badge bg='warning'> jQuerry</Badge>
         <Badge bg='warning'>Node.js</Badge>
-        <Badge bg='primary'> HTML</Badge>
+        <Badge bg='primary'>HTML</Badge>
         <Badge bg='primary'>CSS</Badge>
+        <Badge bg='primary'>SASS</Badge>
         <Badge bg='success'>MySQL</Badge>
         <Badge bg='success'>MongoDB</Badge>
         <Badge bg='success'>GraphQL</Badge>
         <Badge bg='info'>Heroku</Badge>
         <Badge bg='info'>Github</Badge>
+        <Badge bg='info'>Apollo</Badge>
+        <Badge bg='info'>REST</Badge>
+
         </div>
       </Card>
 
