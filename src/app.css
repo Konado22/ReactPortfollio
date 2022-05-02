@@ -70,7 +70,7 @@ justify-content: left;
   justify-content: center;
 }
 
-@media screen and (min-width:1080px) {
+@media screen and (min-width:1024px) {
   img {
       max-width: 400px;
       max-height: 400px;
@@ -90,9 +90,9 @@ justify-content: left;
 @media screen and (min-width:720px) {
   img {
       max-width: 250px;
-      max-height: 250px;
+      max-height: 200px;
       min-width: 250px;
-      min-height: 250px;
+      min-height: 175px;
   }
 
   .images h3 {
@@ -108,9 +108,9 @@ justify-content: left;
 @media screen and (max-width: 720px) {
   img {
       max-width: 125px;
-      max-height: 125px;
+      max-height: 75px;
       min-width: 125px;
-      min-height: 125px;
+      min-height: 75px;
   }
 
   .images h3 {
@@ -150,4 +150,9 @@ justify-content: left;
 }
 .card{ 
  background-color:inherit;
-min-height: 100%; }
+min-height: 100%;
+border: none }
+
+.card :hover{
+  box-shadow: inset 5em gold;
+}

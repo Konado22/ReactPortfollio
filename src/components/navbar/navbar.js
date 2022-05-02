@@ -1,5 +1,5 @@
 import { Navbar, Nav, Container} from "react-bootstrap";
-import image from "../../assets/profile-pic.jpg"
+import image from "../assets/profile-pic.jpg"
 import "./navbar.css"
 const appNavbar = () => {
   return (

@@ -11,7 +11,7 @@ export const projectData = [{
 {
     id: 2,
     title: "Pad Protection",
-    image: "",
+    image: "/assets/dayPlanner.png",
     github: "https://github.com/Konado22/Pad-Protection",
     live: "https://padprotection.herokuapp.com/",
     description: "Help find the right home insurance for you. React, GraphQL, Apollo, Bootstrap"
