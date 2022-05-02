@@ -7,7 +7,7 @@ const AboutMe = () => {
           "textDecoration": "none",
           "paddingLeft": "15px",
           "paddingRight": "15px",
-          "backgroundColor":"aquamarine"
+          // "backgroundColor":"aquamarine"
           // "marginLeft": "15px",
           // "marginRight": "15px"
         }}

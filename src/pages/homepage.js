@@ -2,7 +2,7 @@ import {Badge,Card} from 'react-bootstrap'
 
 function Homepage() {
   return (
-    < div style={{"backgroundColor":"aquamarine"}}>
+    < div style={{}}>
       <div>
         <h4 style={{"fontFamily": "unset", "fontWeight": "bold"}}>Hi and welcome to my Portfollio!</h4>
         <br></br>

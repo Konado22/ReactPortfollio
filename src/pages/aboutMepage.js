@@ -7,10 +7,10 @@ function AboutMePage() {
   return (
     <>
       <AboutMe />
-      <div style={{"display": "flex", "justifyContent":"space-evenly","paddingTop": "20px", "backgroundColor":"aquamarine", "flexWrap": "wrap" }}>
-      <img src={githubStats} alt=""/>
-      <img src={langStats} alt="" />
-      <img src={summaryStats} alt="" />
+      <div style={{"display": "flex", "justifyContent":"space-evenly","paddingTop": "20px", "flexWrap": "wrap", paddingBottom: "20px" }}>
+      <img src={githubStats}  style={{border: "solid black 2px"}}alt=""/>
+      <img src={langStats} style={{border: "solid black 2px"}} alt="" />
+      <img src={summaryStats} style={{border: "solid black 2px"}} alt="" />
       {/* <img src={herokuStats} alt="" /> */}
 
       </div>

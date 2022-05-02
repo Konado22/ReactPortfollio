@@ -21,10 +21,6 @@
   flex-direction: row;
 }
 
-
-/* .bannerstuff { */
-  /* background-color: blue; */
-/* } */
 .hovBtn :hover {
   background: blueviolet;
 }
