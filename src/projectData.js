@@ -1,10 +1,12 @@
+
+
 export const projectData = [{
     id: 1,
     title: "Eat the Frog",
-    image: '/assets.frog.jpg',
+    image: './assets/frog.jpg',
     github: "https://github.com/Konado22/eat_the_frog",
     live: "https://msp4msps.github.io/eat_the_frog/",
-    description: "Mobile Widget. Javascript, HTML, CSS, API's"
+    description: "Mobile Widget with various functions. Javascript, HTML, CSS, API's"
 },
 {
     id: 2,
@@ -20,7 +22,7 @@ export const projectData = [{
     image: "",
     github: "https://github.com/Konado22/Social-Network-API",
     live: "https://watch.screencastify.com/v/K16J8d75pUHbQZNPm7ZL",
-    description: "Social network clone. React/MongoDB API"
+    description: "Social network clone, like and follow users. React/MongoDB API"
 },
 {
     id: 4,

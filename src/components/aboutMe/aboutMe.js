@@ -4,7 +4,7 @@ const AboutMe = () => {
     <div>
       <Card
         style={{
-          "text-decoration": "none",
+          "textDecoration": "none",
           "paddingLeft": "15px",
           "paddingRight": "15px",
           "backgroundColor":"aquamarine"

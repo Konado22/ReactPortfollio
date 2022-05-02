@@ -10,9 +10,9 @@ function Footer() {
   return (
     <div style={{"backgroundColor":"aquamarine"}}>
       <div style={{ "display": "flex", "justifyContent": "space-evenly", "paddingTop": "15px"}}>
-        <a href="https://github.com/Konado22"><img src={githubBadge} href="https://github.com/Konado22" alt="" /></a>
-        < a href="https://www.linkedin.com/in/jesse-draper-2b5466217/" alt=""><img src={linkedInBadge}/></a>
-        <a href="mailto:jessedraper2@gmail.com"><img src={emailBadge} alt="" /></a>
+        <a href="https://github.com/Konado22"><img  style={{borderRadius: "50px"}}src={githubBadge} href="https://github.com/Konado22" alt="" /></a>
+        <a href="https://www.linkedin.com/in/jesse-draper-2b5466217/" alt=""><img style={{ borderRadius: "50px"}} src={linkedInBadge}/></a>
+        <a href="mailto:jessedraper2@gmail.com"><img src={emailBadge} style={{borderRadius: "50px"}} alt="" /></a>
       </div>
     </div>
   );

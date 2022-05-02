@@ -25,7 +25,9 @@
 /* .bannerstuff { */
   /* background-color: blue; */
 /* } */
-
+.hovBtn :hover {
+  background: blueviolet;
+}
 .bannerstuff h1 {
   color: lightgray;
   display: flex;

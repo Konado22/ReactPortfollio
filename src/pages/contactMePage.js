@@ -1,7 +1,7 @@
 import { Card} from 'react-bootstrap'
 function ContactMePage () {
     return(
-        <div style={{"backgroundColor":"aquamarine"}}>
+        <div style={{}}>
         <p style={{"fontFamily": "sans-serif", "paddingLeft": "15px", "paddingRight": "15px", "lineHeight" : "60px", "fontSize": "30px"}}> Thank your for viewing my page! Use links below to contact me or see more examples of my work.</p>
         <div style={{"paddingLeft": "15px", "paddingRight": "15px", "paddingTop" :"10px"}}>
         <Card variant="dark" bg='dark' style={{"marginBottom" : "10px"}}>
