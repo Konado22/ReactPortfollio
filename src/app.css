@@ -148,3 +148,6 @@ justify-content: left;
 #root {
   background: linear-gradient(to right, #e66465, #9198e5)
 }
+.card{ 
+ background-color:none;
+min-height: 100%; }
