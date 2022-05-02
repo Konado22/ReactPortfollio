@@ -4,9 +4,9 @@ import { Card, Button } from "react-bootstrap";
 const IndvProject = () => {
 
   return projectData.map((item) => (
-    <Card key={item.id} style={{textAlign: "center", maxWidth: "600px", paddingBottom: "20px"}}>
+    <Card key={item.id} style={{textAlign: "center", maxWidth: "600px", paddingBottom: "20px",}}>
       <Card className="images">
-        <Card className=" bg-dark">
+        <Card style={{background:"linear-gradient(to right, grey, black)" }}>
           <Card.Img src={item.image} alt="" />
           <a href={item.live} target="_blank" rel="noreferrer">
             <Button variant="outline-light" style={{ width: "100%" }}>
@@ -14,7 +14,7 @@ const IndvProject = () => {
             </Button>
           </a>
           <a href={item.github} target="_blank" rel="noreferrer">
-            <Button variant="outline-light" style={{ width: "100%" }}>
+            <Button variant="outline-info" style={{ width: "100%" }}>
               Github Repo link
             </Button>
           </a>

@@ -145,3 +145,6 @@ justify-content: left;
   padding-left: 10px;
   margin-left: 10px;
 }
+#root {
+  background: linear-gradient(to right, #e66465, #9198e5)
+}

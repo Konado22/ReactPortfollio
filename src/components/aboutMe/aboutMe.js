@@ -4,11 +4,10 @@ const AboutMe = () => {
     <div>
       <Card
         style={{
-          "textDecoration": "none",
-          "paddingLeft": "15px",
-          "paddingRight": "15px",
-          // "backgroundColor":"aquamarine"
-          // "marginLeft": "15px",
+          textDecoration: "none",
+          paddingLeft: "20px",
+          paddingRight: "20px",
+          background: "linear-gradient(to right, #e66465, #9198e5)"          // "marginLeft": "15px",
           // "marginRight": "15px"
         }}
       >

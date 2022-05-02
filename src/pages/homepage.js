@@ -2,9 +2,9 @@ import {Badge,Card} from 'react-bootstrap'
 
 function Homepage() {
   return (
-    < div style={{}}>
+    < div style={{paddingLeft: "10px"}}>
       <div>
-        <h4 style={{"fontFamily": "unset", "fontWeight": "bold"}}>Hi and welcome to my Portfollio!</h4>
+        <h5 style={{paddingLeft: "20px","fontFamily": "unset", "fontWeight": "bold"}}>Hi and welcome to my Portfollio!</h5>
         <br></br>
         <p style={{"paddingLeft": "20px" , "paddingRight": "20px" ,"lineHeight": "60px", "fontSize": "30px"}}>
           Technology has always been facinating and a big part of my life. From
@@ -14,9 +14,9 @@ function Homepage() {
         </p>
       </div>
       <div style={{"display":"flex","justifyContent":"center" }}>
-      <Card bg="dark" style={{"display": "flex","paddingTop":"10px", "paddingBottom": "15px", "width": "80%", justifyContent:"center"}}>
-        <Card.Title style={{"color": "aquamarine"}}>Skills</Card.Title>
-        <div style={{"width": "100%",display: "flex", justifyContent: "space-evenly", "flexWrap": "wrap", alignItems: "center"}}>
+      <Card style={{background: "linear-gradient(to right, grey, black)","display": "flex","paddingTop":"10px", "paddingBottom": "15px", "width": "80%", justifyContent:"center"}}>
+        <Card.Title style={{"color": "white",}}>Skills</Card.Title>
+        <div style={{"width": "100%",display: "flex", justifyContent: "space-evenly", "flexWrap": "wrap", alignItems: "center",}}>
         <Badge  className="hovBtn" bg='warning'>React.js</Badge>
         <Badge  className="hovBtn" bg='warning'>Javascript</Badge>
         <Badge className="hovBtn"  bg='warning'> Express.js</Badge>
