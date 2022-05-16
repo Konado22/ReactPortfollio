@@ -10,11 +10,11 @@ function Homepage() {
           Technology has always been facinating and a major part of my life. From
           building computers, to videogames, and a passion for coding I have spent
           some quality time around my computer. To learn more about me and my
-          work please see below.
+          work please see below. <br />Currently learning: GoLang
         </p>
       </div>
-      <div style={{"display":"flex","justifyContent":"center" }}>
-      <Card style={{background: "linear-gradient(to right, grey, black)","display": "flex","paddingTop":"10px", "paddingBottom": "15px", "width": "80%", justifyContent:"center"}}>
+      <div style={{"display":"flex","justifyContent":"center",paddingBottom: "20px" }}>
+      <Card style={{background: "linear-gradient(to right, grey, black)","display": "flex","paddingTop":"10px", "paddingBottom": "20px", "width": "80%", justifyContent:"center"}}>
         <Card.Title style={{"color": "white",paddingLeft: "20px"}}>Skills</Card.Title>
         <div style={{"width": "100%",display: "flex", justifyContent: "space-evenly", "flexWrap": "wrap", alignItems: "center",}}>
         <Badge  className="hovBtn" bg='warning'>React.js</Badge>
