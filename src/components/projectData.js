@@ -19,7 +19,7 @@ export const projectData = [{
 {
     id:3,
     title: "Social Network API",
-    image: "",
+    image: "?",
     github: "https://github.com/Konado22/Social-Network-API",
     live: "https://watch.screencastify.com/v/K16J8d75pUHbQZNPm7ZL",
     description: "Social network clone, like and follow users. React/MongoDB API"
@@ -27,7 +27,7 @@ export const projectData = [{
 {
     id: 4,
     title: "Day-Planner",
-    image: "",
+    image: "?",
     github: "https://github.com/Konado22/Day-Planner",
     live: "https://konado22.github.io/Day-Planner/",
     description: "Day planning app. Javascript, HTML, CSS"
@@ -35,7 +35,7 @@ export const projectData = [{
 {
     id: 5,
     title: "JATE",
-    image: "",
+    image: "?",
     github: "https://github.com/Konado22/newTextEditor",
     live: "https://pure-island-75813.herokuapp.com/",
     description: "PWA text editor. Webpack, Javascript"
@@ -44,7 +44,7 @@ export const projectData = [{
 {
     id: 6,
     title: "Note Taker",
-    image: "",
+    image: "?",
     github: "https://github.com/Konado22/Note-taker",
     live: "https://immense-eyrie-46617.herokuapp.com/",
     description: "Note taking app. HTML, Javascript, Express"
