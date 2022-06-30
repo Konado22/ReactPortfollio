@@ -19,6 +19,7 @@ function Homepage() {
         <div style={{"width": "100%",display: "flex", justifyContent: "space-evenly", "flexWrap": "wrap", alignItems: "center",}}>
         <Badge  className="hovBtn" bg='warning'>React.js</Badge>
         <Badge  className="hovBtn" bg='warning'>Javascript</Badge>
+        <Badge  className="hovBtn" bg='warning'>GOlang</Badge>
         <Badge className="hovBtn"  bg='warning'> Express.js</Badge>
         <Badge className="hovBtn"  bg='warning'> jQuerry</Badge>
         <Badge className="hovBtn"  bg='warning'>Node.js</Badge>
