@@ -47,7 +47,7 @@ export const projectData = [{
     image: "?",
     github: "https://github.com/Konado22/Note-taker",
     live: "https://immense-eyrie-46617.herokuapp.com/",
-    description: "Note taking app. HTML, Javascript, Express"
+    description:"Note taking app. HTML, Javascript, Express"
 
 }
 ]
