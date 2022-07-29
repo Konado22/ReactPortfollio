@@ -4,7 +4,7 @@ import { Card, Button } from "react-bootstrap";
 const IndvProject = () => {
 
   return projectData.map((item) => (
-    <Card key={item.id} style={{textAlign: "center", maxWidth: "600px", paddingBottom: "20px",}}>
+    <Card key={item.id} style={{textAlign: "center", maxWidth: "600px", paddingBottom: "20px",paddingLeft: "10px", paddingRight:"10px"}}>
       <Card className="images">
         <Card style={{background:"linear-gradient(to right, grey, black)"}}>
           <img src={item.image} alt="" />
