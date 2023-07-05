@@ -13,7 +13,7 @@ const IndvProject = () => {
               {item.title}
             </Button>
           </a>
-          <a href={item.github} target="_blank" rel="noreferrer">
+          <a href={item.github} target="_blank" rel="noreferrer">Click Here</a>
             <Button variant="outline-info" style={{ width: "100%" }}>
               Github Repo link
             </Button>
