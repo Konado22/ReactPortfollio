@@ -14,15 +14,15 @@ const AboutMe = () => {
         <Card.Title className="bigger">About Me</Card.Title>
         <Card.Text style={{"fontSize": "30px","fontFamily": "unset","lineHeight": "60px"}}>
           Hello My Name is Jesse Draper. I enjoy music, playing outside in the
-          mountains, and spending time with my 5 year old son. I am a 26 year
+          mountains, and spending time with my 6 year old son. I am a 28 year
           old student recently having completed a Full Stack Web Development
-          course through the University Of Denver. Outside of coding This has
+          course through the University Of Denver and currently pusuing my Bachelor of Computer Science at Southern New Hampshire University. Outside of building the foundation of coding This has
           been an important milestone in my life, as I have strongly desired a
           career change for some time and have always been interested in
           coding/web development. I have been able to gain exposure to many
           different web languages, frameworks, and understand their usage! Web
-          development also meshes well with skills I have utilized in previous
-          jobs in hospitality and hospitality management. Some of these skills
+          development also compliments skills I have utilized in previous
+          jobs in hospitality management. Some of these skills
           include problem solving, working with teams, coordinating projects, as
           well as managing my time effectively. I have really enjoyed the
           experiences I have gained and have provided some examples of the work
