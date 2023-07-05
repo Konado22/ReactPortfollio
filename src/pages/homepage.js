@@ -19,6 +19,8 @@ function Homepage() {
         <div style={{"width": "100%",display: "flex", justifyContent: "space-evenly", "flexWrap": "wrap", alignItems: "center",padding:'10px'}}>
         <Badge  className="hovBtn" bg='warning' style={{padding: "20px", margin:'10px'}}>React.js</Badge>
         <Badge  className="hovBtn" bg='warning' style={{padding: "20px", margin:'10px'}}>Javascript</Badge>
+            <Badge  className="hovBtn" bg='warning' style={{padding: "20px", margin:'10px'}}>C++</Badge>
+            <Badge  className="hovBtn" bg='warning' style={{padding: "20px", margin:'10px'}}>Java</Badge>
         <Badge  className="hovBtn" bg='warning' style={{padding: "20px", margin:'10px'}}>GoLang</Badge>
         <Badge className="hovBtn"  bg='warning' style={{padding: "20px", margin:'10px'}}> Express.js</Badge>
         <Badge className="hovBtn"  bg='warning' style={{padding: "20px", margin:'10px'}}> jQuerry</Badge>
